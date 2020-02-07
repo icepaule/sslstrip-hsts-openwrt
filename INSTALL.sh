@@ -4,12 +4,13 @@
 # I consider this a dirty fix to get sslstrip2 running. It's needed because the upstream libraries are not up to date.
 #
 # Written by: Andreas Nilsen - adde88@gmail.com - https://www.github.com/adde88
+# changed clone path after original files could not be found anymore
 #
 # Variables and colors.
 RED='\033[0;31m'
 NC='\033[0m'
 sslstrip_version="0.9" 
-SSLSTRIP_IPK="https://github.com/adde88/sslstrip-hsts-openwrt/raw/master/sslstrip-hsts_"$sslstrip_version"_ar71xx.ipk"
+SSLSTRIP_IPK="https://github.com/icepaule/sslstrip-hsts-openwrt/raw/master/sslstrip-hsts_"$sslstrip_version"_ar71xx.ipk"
 INSTROOT=""
 #
 #	Starting Installtion.
